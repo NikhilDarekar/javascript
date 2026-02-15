@@ -1,0 +1,89 @@
+body {
+    background-color: rgb(94, 59, 15);
+    margin: 0;
+    padding: 0;
+    color: #333;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* Card-style container */
+.box {
+    background-color: whitesmoke;
+    padding: 25px 35px;
+    margin: 30px auto;
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 800px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.25);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
+/* Heading */
+.heading {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    color: brown;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Paragraphs */
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+    font-size: 1rem;
+    text-align: center;
+}
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: brown;
+    color: white;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    gap: 20px;
+    margin-top: auto;
+    display: inline;
+}
+.button-row {
+  display: flex;              /* Aligns items in a row */
+  justify-content: center;    /* Centers them horizontally */
+  gap: 20px;                  /* Adds space between buttons */
+}
+
+.button-row button {
+  padding: 10px 20px;         /* Makes buttons look nicer */
+  font-size: 16px;
+}
+#rock:hover{
+    background-color: blue;
+    font-size: 1rem;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#paper:hover{
+    background-color: blue;
+    font-size: 1rem;  
+    font-family: 'Times New Roman', Times, serif;
+}
+#scissor:hover{
+    background-color: blue;
+    font-size: 1rem;  
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* button:hover{
+    background-color: blue;
+    font-size: 1rem;  
+    font-family: 'Times New Roman', Times, serif;
+} */
