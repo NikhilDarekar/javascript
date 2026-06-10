@@ -29,3 +29,17 @@ numberBtns.forEach(button => {
         
     })
 })
+
+const appendAdd = (add) => {
+    result += add
+    resultElement.innerText = result
+}
+
+//add event listener to operator
+addBtn.for(button => {
+
+    button.addEventListener('click', () => {
+        console.log('clicked')
+        appendAdd(button.innerText)
+    })
+})
